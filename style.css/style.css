@@ -21,6 +21,14 @@ body{
      margin-right: auto;
      margin-left: auto;
 }
+
+.breands-chiziq{
+     width: 80px;
+     border: 1px solid rgba(0, 0, 0, 0.09);
+     background-color: rgba(0, 0, 0, 0.09);
+     margin-top: 0;
+     margin-bottom: 0;
+}
 /* SITE HEADER */
 .site-header {
      padding-top: 18px;
@@ -63,7 +71,7 @@ body{
      opacity: 0.6;
      color: black;
 }
-.section-box{
+.header-box{
      width: 100%;
      height: 391px;
      background-image: url(../IMG/IMAGE.jpg);
@@ -77,7 +85,7 @@ body{
      text-align: center;
      color: #fff;
 }
-.section-heading {
+.header-heading {
      font-family: "Montserrat" , "Oswald" , "Vollkorn", "Arial" , sans-serif;
      text-transform: uppercase;
      font-size: 44px;
@@ -86,20 +94,19 @@ body{
      margin-top: 0;
      margin-bottom: 0;
 }
-.section-heading-bottom {
+.header-heading-bottom {
      margin-top: 0;
      margin-bottom: 0;
      margin-bottom: 28px;
 }
-.section-heading-bottom-chiziq {
+.header-heading-bottom-chiziq {
      border: 1px solid #FFFFFF;
      background-color: #fff;
      width: 80px;
-     /* height: 1px; */
-     border-radius: 5px;
+     /* height: 1px; *header */
      margin-bottom: 41px;
 }
-.section-text {
+.header-text {
      color: rgba(255, 255, 255, 0.81);
      font-size: 15px;
      line-height: 20px;
@@ -111,7 +118,7 @@ body{
 }
 
 
-.section-bottom {
+.header-bottom {
      width: 100%;
      height: 269px;
      background-color: #FEFEC9;
@@ -119,7 +126,7 @@ body{
      text-align: center;
 }
 
-.section-bottom-text {
+.header-bottom-text {
      margin-top: 0;
      margin-bottom: 0;
      padding-top: 60px;
@@ -132,7 +139,7 @@ body{
 
 
 }
-.section-bottom-link {
+.header-bottom-link {
      margin-bottom: 61px;
      padding: 13px 34px 20px;
      text-decoration: none;
@@ -143,4 +150,114 @@ body{
      font-size: 16px;
      line-height: 20px;
      font-weight: 400;
+}
+
+
+.header-breands-container {
+     justify-content: center;
+     text-align: center;
+     font-weight: 300;
+}
+.header-breands-heading {
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-top: 50px;
+     padding-bottom: 20px ;
+     text-transform: uppercase;
+     color: rgba(51, 51, 51, 0.979);
+     font-family: "Montserrat" , "Vollkorn" , "Oswald" , "Arial" , sans-serif;
+     font-size: 23px;
+     line-height: 36px;
+
+}
+.header-breands-chiziq {
+     margin-top: 0;
+     margin-bottom: 30px;
+
+}
+.header-breands {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: "Montserrat" , "Vollkorn" , "Oswald" , "Arial" , sans-serif;
+     color: rgba(51, 51, 51, 1);
+     font-family: 400;
+
+}
+.header-breands-content:not(:last-child) {
+     padding-right: 20px;
+
+}
+.header-breands-content-img-backgraund{
+     padding: 50px 87px;
+     background-color: #F5F5F5;
+     margin-bottom: 38px;
+}
+.header-breands-content-target {
+     margin-top: 0;
+     margin-bottom: 20px;
+     text-transform: uppercase;
+     font-size: 16px;
+     line-height: 20px;
+
+}
+.header-breands-contnet-text {
+     margin: 0 5px;
+     padding-bottom: 50px;
+     font-size: 15px;
+     line-height: 22px;
+}
+
+.section-box {
+     background-color:#F5F5F5;
+}
+
+.section-project-container {
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+
+}
+.section-project-heading {
+     margin-top: 0;
+     margin-bottom: 0;
+     padding-top: 69px;
+     padding-bottom: 28px;
+}
+
+.section-project {
+     display: flex;
+     flex-wrap: wrap;
+     padding-top: 43px;
+}
+ img.section-project-img{
+     margin-right: 13px;
+     margin-bottom: -4px;
+     border: 0;
+}
+
+.section-project-bottom {
+     width: 300px;
+     background-color: #fff;
+     font-family: "Montserrat" , "Vollkorn" , "Oswald" , "Arial" , sans-serif;
+     font-weight: 400px;
+     color: #333333;
+     line-height: 20px;
+}
+.section-project-bottom-heading {
+     margin-top: 0;
+     padding-top: 19px;
+     text-transform: uppercase;
+     font-size: 16px;
+     padding-bottom: 5px;
+     margin: 0;
+
+}
+.section-project-bottom-text {
+     margin-top: 0;
+     margin-bottom: 20px;
+     font-family: "Vollkorn",  "Montserrat"  , "Oswald" , "Arial" , sans-serif;
+     font-size: 14px;
+     padding-bottom: 21px;
+
 }
